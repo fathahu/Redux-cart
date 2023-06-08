@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from './components/Header/Header'
+import {ProductList} from './components'
 
 const App = () => {
   return (
-    <div> <h1>hello</h1> </div>
+    <>
+    <Header/>
+    <ProductList/>
+    </>
+    
   )
 }
 
